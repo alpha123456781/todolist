@@ -1,0 +1,66 @@
+.container {
+    height: 400px;
+}
+#left {
+    background-color: #424242;
+    height: 400px;
+    padding: 0px
+}
+
+#right {
+    background-color: #4db6ac;
+    height: 400px;
+}
+
+#last {
+    background-color: #efefef;
+    height: 400px;
+}
+
+#newtask {
+    background-color: #efefef;
+    margin: 5%;
+    width: 80%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    border-bottom: 1px solid #424242;
+    
+}
+
+h1 {
+    text-align: left;
+}
+
+h2 {
+    border-bottom: 1px solid black;
+}
+
+#comp {
+    background-color: lightgreen;
+    display: none;
+}
+
+#imp {
+    background-color:lightcoral;
+    display: none;
+}
+
+.lb {
+
+    border-width:  0px;
+    border-bottom: 1px solid #efefef;
+    width: 100%;
+    padding: 10px;
+}
+
+.logo {
+    height: 150px;
+    width: 100%; 
+    background-image: url(https://images.pexels.com/photos/3243/pen-calendar-to-do-checklist.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover
+}

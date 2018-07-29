@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <title>To-Do-List</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center">
+        <a class="navbar-brand" href="index.html">Brilliant Bastards</a>
+    </nav>
+    <br>
+    <br>
+    <div class="container" align="center">
+        <h1>To-Do-List</h1>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-sm-2" id="left">
+                <div class="logo">
+                </div>
+                
+                <div>
+                    <button class="lb" style="background-color: lightcoral" id="impo">Important Tasks</button>
+                </div>
+                <div>
+                    <button class="lb" style="background-color: lightgreen" id="compo">Completed Tasks</button>
+                </div>
+            </div>
+            <div class="col-sm-4" id="right">
+                <input id="newtask">
+                <button id="addtask">+</button>
+                <ul id="list">
+
+                </ul>
+            </div>
+            <div class="col-sm-3" id="comp">
+                <h2>Completed Tasks</h2>
+                <br>
+                <br>
+                <ul id="list2">
+                </ul>
+            </div>
+            <div class="col-sm-3" id="imp">
+                <h2>Important Tasks</h2>
+                <br>
+                <br>
+                <ul id="list3">
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
